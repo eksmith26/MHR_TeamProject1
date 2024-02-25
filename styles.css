@@ -1,0 +1,98 @@
+#title {
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 30pt;
+    font-family: 'Times New Roman', Times, serif;
+    height: 200px;
+    padding-top: 70px;
+}
+#Tesla_Symbol {
+    height: 300px;
+    padding-left: 60px;
+    padding-top: 30px;
+}
+.container {
+    display: flex;
+    justify-content: space-around; /* This will space out the buttons evenly */
+    align-items: center; /* This will align buttons vertically in the center */
+    flex-wrap: wrap; /* Allows buttons to wrap to the next line on small screens */
+    padding: 10px; /* Adds some space inside the container */
+}
+
+button {
+    flex-grow: 1;
+    margin: 5px;
+    /* Removed duplicate padding properties to avoid confusion */
+    /* padding: 10px 20px; Removed because of the new padding settings below */
+    background-color: black; /* Makes the background color black */
+    border: 3px solid red; /* Makes the border red and thicker */
+    border-radius: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0.5%; /* Adjust based on your layout needs */
+    font-size: 20px; /* Adjusted to match your latest setting, though you have two font-size declarations */
+    color: white;
+}
+
+button:hover {
+    background-color: rgb(69, 66, 66); /* Slightly darker grey background on hover */
+}
+
+#header1 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding-top: 50px;
+}
+#paragraphText {
+    padding-left: 20px; /* Adjusted for normal spacing */
+    padding-right: 20px; /* Ensure text does not touch the container's edge */
+}
+#Tesla_Union{
+    height:300px;
+    padding-left: 1000px
+}
+
+.Tesla_Factory {
+    display: flex;
+    justify-content: flex-end; /* Aligns children (the image) to the right */
+    align-items: center; /* Optional: Centers the image vertically */
+}
+.Tesla_Factory img {
+    /* Additional styling for the image as needed */
+    max-height: 100%; /* Optional: Ensures the image fits within the container */
+    max-width: 100%; /* Optional: Ensures the image is not wider than the container */
+    width: 500px; /* Example: Sets the width of the image to 200 pixels */
+    height: auto;
+}
+
+.Tesla_Overtime {
+    display: flex;
+    justify-content: flex-end; /* Aligns children (the image) to the right */
+    align-items: center; /* Optional: Centers the image vertically */
+}
+.Tesla_Overtime img {
+    /* Additional styling for the image as needed */
+    max-height: 100%; /* Optional: Ensures the image fits within the container */
+    max-width: 100%; /* Optional: Ensures the image is not wider than the container */
+    width: 500px; /* Example: Sets the width of the image to 200 pixels */
+    height: auto;
+}
+
+.Tesla_JobSecurity{
+    display: flex;
+    justify-content: flex-end; /* Aligns children (the image) to the right */
+    align-items: center; /* Optional: Centers the image vertically */
+}
+
+.Tesla_JobSecurity img {
+    /* Additional styling for the image as needed */
+    max-height: 100%; /* Optional: Ensures the image fits within the container */
+    max-width: 100%; /* Optional: Ensures the image is not wider than the container */
+    width: 400px; /* Example: Sets the width of the image to 200 pixels */
+    height: 400px;
+}
+
+h5{
+    text-align: center;
+}
+
